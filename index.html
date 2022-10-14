@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        label{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+        }
+        li{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+        }
+        #top{
+            position: absolute;
+            left: 90%;
+            top: 0px;
+        }
+        #bottom{
+            position: absolute;
+            left: 90%;
+            top: 1480px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my site</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.jpeg">
+</head>
+<body>
+
+    <img id="myPhoto"  src="./assets/MyPhoto.JPEG" alt="photo">
+
+    <div id="personalForm">
+        <form action="GET">
+            <label for="fullname">name: </label>
+            <input type="text" class="text" name="fullname" id="fullname" value="Marcelo Vitor Toscan de Oliveira" disabled> 
+            <br>
+            <label for="country">country: </label>
+            <input type="text" class="text" name="country" id="country" value="Brazil" disabled> 
+            <br>
+            <label for="program">program: </label>
+            <input type="text" class="text" name="program" id="program" value="Game Programming" disabled> 
+        </form>
+    </div>
+
+    <div id="abilities">
+        <h1 class="title">abilities</h1>
+        <div id="intermediaryLevel">
+            <h2 class="secundaryTitle">intermediary level</h2>
+            <ul>
+                <li>c++</li>
+                <li>Arduino</li>
+            </ul>
+        </div>
+        <div id="beginnerLevel">
+            <h2 class="secundaryTitle">Beginner level</h2>
+            <ul>
+                <li>Blender</li>
+                <li>HTML</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="blenderDiv">
+        <h1 class="blenderText title">my blender <q>portfolio</q></h1>
+        <a class="blenderIcon" href="blender_portfolio.html"> <img  src="./assets/blender_logo.png" alt="imagem" height="130"></a>
+        <br><br><br>
+        <hr style="position: absolute;top: 170px;">
+    </div>
+
+    <div id="favoriteGames">
+    <h1 class="title">my favorite games</h1>
+        
+        <img class="gameImages" style="left: 0px;" src="./assets/Nier_Automata.jfif" alt="nier automata">
+        <img class="gameImages" style="left: 300px;" src="./assets/nier_replicant.jpg" alt="nier replicant">
+        <img class="gameImages" style="left: 600px;" src="./assets/final_fantasy_XIV.jpg" alt="final fantasy XIV">
+        <img class="gameImages" style="left: 900px;" src="./assets/Persona_5.jpg" alt="persona 5">
+
+    </div>
+
+    <div id="favoriteMusic">
+        <h1 class="title">my favorite musics</h1>
+        <br>
+        <a href="https://www.youtube.com/watch?v=vWgpJ0k820w"> flow - Masayoshi Soken</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=bREZqkbI2WU"> answers - Nobuo Uematsu</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=pICAha0nsb0"> Two Steps From Hell - Star Sky</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=rm82XOhIm9w"> Sibelius violin concerto</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=SDwKJ6bBXEA"> Mendelssohn violin concerto in E minor</a>
+    </div>
+
+    <div id="aboutMe">
+        <h1 class="title">about me</h1>
+        <p>Hello my name is Marcelo and I'm currently a Game programming student at St. Lawrence College. Before coming to Canada I was a Mechatronics Engeniring student in Brazil</p>
+    </div>
+
+    <button id="top"><a class="buttonText" href="#bottom"> to the bottom</a></button>
+
+    <button id="bottom"><a class="buttonText" href="index.html" >to the top</a></button>
+
+</body>
+</html>
